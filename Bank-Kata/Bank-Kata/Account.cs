@@ -1,18 +1,24 @@
 ﻿using System;
+using Bank_Kata.Interfaces;
 
 namespace Bank_Kata {
     public class Account : AccountService {
-        public void deposit(int amount)
+        public Account(PrinterService printer, TransactionStore transactionStore)
         {
             throw new NotImplementedException();
         }
 
-        public void withdraw(int amount)
+        public void Deposit(int amount)
         {
             throw new NotImplementedException();
         }
 
-        public void printStatement()
+        public void Withdraw(int amount)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void PrintStatement()
         {
             throw new NotImplementedException();
         }
